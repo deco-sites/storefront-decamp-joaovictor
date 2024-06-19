@@ -1,0 +1,36 @@
+{
+  "name": "Culturas",
+  "path": "/culturas",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Images/BannerGrid.tsx",
+      "title": "Nossos produtos",
+      "banners": [
+        {
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10761/6edc0718-2779-4545-995c-87a598ab415e",
+          "alt": "Produtos",
+          "href": "/produtos"
+        },
+        {
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10761/b3ebe70b-93b3-43db-96d2-a7513d6c4e31",
+          "alt": "PRoduto natural",
+          "href": "produtos"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Lugar.tsx",
+      "temperature": {
+        "celsius": 25
+      },
+      "text": "Temperatura"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

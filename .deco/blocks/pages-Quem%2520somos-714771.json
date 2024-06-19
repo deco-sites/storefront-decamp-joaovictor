@@ -26,6 +26,11 @@
     {
       "__resolveType": "site/sections/Content/RichText.tsx",
       "text": "<p><em>Produtos e Experiências:</em></p><ul><li><p><em>Culinária Internacional: Uma seção dedicada a ingredientes autênticos, especiarias e receitas tradicionais de diversas culinárias ao redor do mundo. Os clientes podem comprar kits de ingredientes para preparar pratos típicos de diferentes países e também participar de workshops de culinária ao vivo conduzidos por chefs locais.</em></p></li><li><p><em>Artes e Artesanato: Uma coleção de artesanatos únicos, obras de arte e decorações inspiradas em diversas culturas. Isso inclui esculturas, máscaras tribais, pinturas, tecelagens, cerâmicas e outros itens feitos à mão por artistas locais de diferentes partes do mundo.</em></p></li><li><p><em>Moda e Acessórios: Uma variedade de roupas, acessórios e joias inspiradas em estilos tradicionais de diferentes culturas. Isso inclui roupas étnicas, lenços bordados à mão, bolsas de couro artesanais e muito mais, tudo projetado por designers locais que valorizam técnicas de fabricação tradicionais.</em></p></li></ul><p><br data-mce-bogus=\"1\"></p>"
+    },
+    {
+      "__resolveType": "site/sections/Cupom.tsx",
+      "descricao": "Utilize esse cupom e ganhe 10% de desconto na primeira compra",
+      "codigo": "PRIMEIRACOMPRA10OFF"
     }
   ],
   "seo": {
