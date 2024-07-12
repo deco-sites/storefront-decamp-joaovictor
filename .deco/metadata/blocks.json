@@ -334,5 +334,11 @@
     "path": "/stats",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-test-708679.json": {
+    "name": "test",
+    "path": "/test",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

@@ -13,105 +13,42 @@
         {
           "productPage": {
             "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
-            "slug": "/:slug/p"
+            "slug": "vestido-azul"
+          }
+        },
+        {
+          "productPage": {
+            "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+            "slug": "vestido-rosa"
+          }
+        },
+        {
+          "productPage": {
+            "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+            "slug": "camisa-polo-masculina-sunset",
+            "similars": true
           }
         }
       ]
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
+      "__resolveType": "site/sections/Images/BannerGrid.tsx",
+      "title": "Destaques",
+      "itemsPerLine": {
+        "mobile": 1,
+        "desktop": 2
+      },
+      "banners": [
         {
-          "value": {
-            "__resolveType": "site/sections/Images/Carousel.tsx",
-            "dots": false,
-            "arrows": true,
-            "images": [
-              {
-                "alt": "Feminino",
-                "action": {
-                  "href": "/feminino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              },
-              {
-                "alt": "Masculino",
-                "action": {
-                  "href": "/masculino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              },
-              {
-                "alt": "Vestidos",
-                "action": {
-                  "href": "/feminino/roupas/vestidos",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              }
-            ],
-            "preload": true
-          },
-          "rule": {
-            "__resolveType": "Teste AB"
-          }
+          "alt": "Alt",
+          "href": "#",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10761/8cfae436-e2ec-4b63-b49d-9ee8222d4a07",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10761/f41730ec-1721-433b-8b9e-80de7933c171"
         },
         {
-          "value": {
-            "__resolveType": "site/sections/Images/Carousel.tsx",
-            "dots": false,
-            "arrows": true,
-            "images": [
-              {
-                "alt": "Feminino",
-                "action": {
-                  "href": "/feminino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              },
-              {
-                "alt": "Masculino",
-                "action": {
-                  "href": "/masculino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              },
-              {
-                "alt": "Vestidos",
-                "action": {
-                  "href": "/feminino/roupas/vestidos",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              }
-            ],
-            "preload": true
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10761/a2822400-ef01-43cf-a8c3-b60bc1d393a0",
+          "alt": "Alta",
+          "href": "#"
         }
       ]
     },
@@ -155,13 +92,14 @@
           }
         },
         "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
-      }
+      },
+      "title": "new in"
     },
     {
       "__resolveType": "site/sections/ProductAd.tsx",
       "productPage": {
         "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
-        "slug": "/:slug/p",
+        "slug": "camisa-polo-masculina-passion",
         "indexingSkus": false
       },
       "loading": false
@@ -169,207 +107,22 @@
     {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/workflow/products.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "sort": "orders:desc",
-          "collection": "139",
-          "count": 6
+          "count": 6,
+          "fuzzy": "automatic",
+          "query": "vestido"
         }
       },
-      "description": "Produtos mais vendidos do site"
+      "title": "Vestidos mais vendidos"
     },
     {
-      "__resolveType": "site/sections/Miscellaneous/CampaignTimer.tsx",
-      "link": {
-        "href": "https://github.com/deco-cx",
-        "text": "Visit our GitHub"
-      },
-      "text": "<p>Design, develop and deliver complete experiences</p>",
-      "labels": {
-        "days": "days",
-        "hours": "hours",
-        "expired": " Expired!",
-        "minutes": "minutes",
-        "seconds": "seconds"
-      },
-      "layout": {
-        "textPosition": "After counter"
-      },
-      "expiresAt": "2024-03-15T17:23:00.000Z"
-    },
-    {
-      "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
-      "content": [
-        {
-          "label": "HOT SALE",
-          "repeat": 15
-        }
-      ]
-    },
-    {
-      "__resolveType": "Shoppable Banner - 01"
-    },
-    {
-      "__resolveType": "site/sections/Category/CategoryGrid.tsx",
-      "list": [
-        {
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/01c01ba9-ac16-4371-82ca-b93d17545f9c",
-          "label": "Your Collection",
-          "buttonText": "Explore collection"
-        },
-        {
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/9b80d57d-64b0-4eef-a3cd-fa8daafaae9c",
-          "label": "Your Collection",
-          "buttonText": "Explore collection"
-        },
-        {
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/ed4c0eb3-96ab-484f-b293-e91d196a5063",
-          "label": "Your Collection",
-          "buttonText": "Explore collection"
-        },
-        {
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b9882ff7-3dbc-43e4-9813-5cec23c012cd",
-          "label": "Your Collection",
-          "buttonText": "Explore collection"
-        }
-      ],
-      "header": {
-        "title": "Explore Our Categories"
-      },
-      "layout": {
-        "categoryCard": {
-          "textPosition": "bottom",
-          "textAlignment": "left"
-        }
+      "__resolveType": "site/sections/ProductAd.tsx",
+      "productPage": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+        "slug": "camisa-polo-masculina-sunset"
       }
-    },
-    {
-      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
-      "image": {
-        "alt": "Collection Image",
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/165c770b-cbbc-48c0-81ad-c732d527c77c",
-        "href": "/feminino"
-      },
-      "section": {
-        "title": "Summer Vibes",
-        "layout": {
-          "showArrows": true,
-          "headerfontSize": "Normal",
-          "headerAlignment": "center",
-          "numberOfSliders": {
-            "mobile": 1,
-            "desktop": 1
-          }
-        },
-        "products": {
-          "props": {
-            "sort": "price:desc",
-            "count": 3,
-            "query": "camisa"
-          },
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
-        },
-        "cardLayout": {
-          "layout": {
-            "hide": {
-              "allPrices": false,
-              "favoriteIcon": true,
-              "installments": true,
-              "productDescription": true
-            },
-            "basics": {
-              "oldPriceSize": "Normal",
-              "contentAlignment": "Left"
-            },
-            "onMouseOver": {
-              "card": "None",
-              "image": "Change image",
-              "showCta": true,
-              "showCardShadow": false,
-              "showSkuSelector": true,
-              "showFavoriteIcon": false
-            },
-            "elementsPositions": {
-              "skuSelector": "Bottom",
-              "favoriteIcon": "Top right"
-            }
-          },
-          "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
-        },
-        "__resolveType": "site/sections/Product/ProductShelf.tsx"
-      }
-    },
-    {
-      "__resolveType": "site/sections/Product/ProductShelfTabbed.tsx",
-      "title": "Best Sellers",
-      "tabs": [
-        {
-          "title": "Woman",
-          "products": {
-            "props": {
-              "sort": "price:desc",
-              "count": 8,
-              "query": "vestido"
-            },
-            "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
-          }
-        },
-        {
-          "title": "Man",
-          "products": {
-            "props": {
-              "sort": "price:desc",
-              "count": 8,
-              "collection": "140"
-            },
-            "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
-          }
-        }
-      ],
-      "layout": {
-        "headerfontSize": "Large",
-        "headerAlignment": "center"
-      },
-      "cardLayout": {
-        "__resolveType": "Product Card Layout - 01"
-      }
-    },
-    {
-      "__resolveType": "site/sections/Content/BlogPosts.tsx",
-      "title": "Blogposts",
-      "posts": [
-        {
-          "alt": "Item of the Summer",
-          "date": "January 15, 2024",
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1",
-          "label": "Item of the Summer",
-          "author": "deco.cx",
-          "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
-        },
-        {
-          "alt": "Item of the Summer",
-          "date": "January 15, 2024",
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/a3f329d8-795c-4c3b-8049-ede939d599ef",
-          "label": "Item of the Summer",
-          "author": "deco.cx",
-          "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
-        },
-        {
-          "alt": "Item of the Summer",
-          "date": "January 15, 2024",
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1",
-          "label": "Item of the Summer",
-          "author": "deco.cx",
-          "description": "Lorem ipsum dolor sit amet consectetur.  Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
-        }
-      ]
     },
     {
       "__resolveType": "Footer - 04"
