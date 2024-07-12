@@ -22,7 +22,7 @@ export default function SaveProductAd(props: Props) {
     const form = event.target as HTMLFormElement;
     const textarea = form[0] as HTMLTextAreaElement;
 
-    await invoke.site.actions.events.comments({
+    await invoke.site.actions.events.comment({
       productId: props.productId,
       comment: textarea.value,
     });
@@ -35,6 +35,7 @@ export default function SaveProductAd(props: Props) {
       position: "right",
     }).showToast();
 
+    // deno-lint-ignore no-explicit-any
     sendEvent<any>({
       name: "post_score",
       params: {

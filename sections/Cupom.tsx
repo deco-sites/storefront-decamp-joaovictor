@@ -6,9 +6,8 @@ interface Props {
 function Gallery(props: Props) {
   return (
     <div>
-        <span>{props.codigo}</span>
-        <p>{props.descricao}</p>
-      
+      <span>{props.codigo}</span>
+      <p>{props.descricao}</p>
     </div>
   );
 }

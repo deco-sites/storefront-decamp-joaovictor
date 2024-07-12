@@ -20,7 +20,7 @@ export default async function loader(
     `https://camp-api.deco.cx/event/${props.productId}`,
     {
       headers: {
-        "x-api-key": "storefrontcamp",
+        "x-api-key": "storefront-decamp-joaovictor",
       },
     },
   ).then((res) => res.json());

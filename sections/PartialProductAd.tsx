@@ -1,7 +1,9 @@
 import { usePartialSection } from "deco/hooks/usePartialSection.ts";
 import Button from "../components/ui/Button.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import ProductAd, { Props as ProductAdProps } from "../components/ProductAd.tsx";
+import ProductAd, {
+  Props as ProductAdProps,
+} from "../components/ProductAd.tsx";
 
 export interface Props {
   message: string;
