@@ -3,10 +3,13 @@
   "path": "/quem-somos",
   "sections": [
     {
+      "__resolveType": "Header - 01"
+    },
+    {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "title": "Quem somos - Conexões Culturais",
-      "titleTemplate": "Quem somos - Conexões Culturais",
       "description": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+      "titleTemplate": "Quem somos - Conexões Culturais",
       "descriptionTemplate": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas."
     },
     {
@@ -31,6 +34,9 @@
       "__resolveType": "site/sections/Cupom.tsx",
       "descricao": "Utilize esse cupom e ganhe 10% de desconto na primeira compra",
       "codigo": "PRIMEIRACOMPRA10OFF"
+    },
+    {
+      "__resolveType": "Footer - 01"
     }
   ],
   "seo": {
